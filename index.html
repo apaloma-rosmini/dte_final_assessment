@@ -30,9 +30,14 @@
     <h2>"Charity Fufills The Law"</h2>
 </div>
 
+<!-- Main container that holds the sidebar and slideshow -->
+<div class="main-container">
+  <!-- Sidebar with H1 -->
+  <div class="sidebar">
+      <h1>History</h1>
+  </div>
 <!-- Carousel -->
 <div class="slideshow-container">
-
     <div class="mySlides fade">
       <div class="numbertext">1 / 4</div>
       <img src="2022_08_04_group-001.jpg" style="width:100%">
@@ -69,7 +74,7 @@
       <span class="dot" onclick="currentSlide(3)"></span> 
       <span class="dot" onclick="currentSlide(4)"></span> 
     </div>
-    
+  
     <script>
     let slideIndex = 1;
     showSlides(slideIndex);
@@ -98,5 +103,6 @@
       dots[slideIndex-1].className += " active";
     }
     </script>
+
 </body>
 </html>
