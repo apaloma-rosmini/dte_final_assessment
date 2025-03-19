@@ -74,6 +74,10 @@ img {vertical-align: middle;}
   top: 0px;
 }
 
+.slideshow-container img{
+  max-width: 100%;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -156,3 +160,19 @@ img {vertical-align: middle;}
 
 }
 
+/* Infobar */
+
+.History {
+  font-weight: bold;
+  color: rgb(0, 84, 162); 
+  text-align: center;
+}
+
+.leftbar p{
+  max-width: 35em;
+  text-align: center;
+}
+
+.leftbar h2{
+  margin-left: 150px;
+}
