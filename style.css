@@ -168,11 +168,20 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-.leftbar p{
+.mission p{
   max-width: 35em;
   text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
-.leftbar h2{
-  margin-left: 150px;
+.mission h2{
+  margin-left: 190px;
+  margin-top: 100px;
+  color: rgb(0, 84, 162); 
+  text-decoration: underline;
+}
+
+.vision h2{
+  margin-left:197px
 }
