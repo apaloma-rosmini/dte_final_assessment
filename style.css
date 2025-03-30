@@ -177,23 +177,24 @@ img {vertical-align: middle;}
 }
 
 .mission h2{
-  margin-left: 190px;
-  margin-top: 100px;
+
+  margin-top: 20px;
   color: rgb(0, 84, 162); 
   text-decoration: underline;
+  text-align: center;
 }
 
 .vision h2{
-  margin-left:197px;
+  margin-top: 50px;
   color: rgb(0, 84, 162); 
   text-decoration: underline;
-  margin-top: 70px;
+  text-align: center;
 }
 
 .vision p{
   max-width: 35em;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0px;
   font-weight: bold;
 }
 
@@ -230,3 +231,76 @@ body{
   font-weight: bold;
   margin-left: 660px;
 } 
+
+.Treaty h2{
+  margin-left:1525px;
+  color: rgb(0, 84, 162); 
+  text-decoration: underline;
+  margin-top: -250px;
+}
+
+.Treaty p{
+  max-width: 150em;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 1400px;
+} 
+
+.Character h2{
+  margin-left:1525px;
+  color: rgb(0, 84, 162); 
+  text-decoration: underline;
+  margin-top: 77px;
+}
+
+.Character p{
+  max-width: 150em;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 1400px;
+} 
+
+
+/* Boxes */
+.mission {
+  padding: 5px; 
+  margin: 10px; 
+  border-radius: 25px; /* Rounded Corners */
+  text-align: center; 
+  background-color: #e6e6e6; /* Light background color */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); /* Shadow */
+  max-width: 450px; 
+  display: inline-block; 
+  transition: all 0.3s ease-in-out; /* Transition Effect */
+}
+
+/* Hover */
+.mission:hover {  
+  background-color: #c7c6c6; 
+  border-color: #007bff; 
+  transform: scale(1.05); /* Makes the box bigger when you hover over it */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.vision {
+  padding: 5px; 
+  margin: 10px; 
+  border-radius: 25px; /* Rounded Corners */
+  text-align: center; 
+  background-color: #e6e6e6; /* Light background color */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); /* Shadow */
+  max-width: 450px; 
+  transition: all 0.3s ease-in-out; /* Transition Effect */
+}
+
+/* Hover */
+.vision:hover {  
+  background-color: #c7c6c6; 
+  border-color: #007bff; 
+  transform: scale(1.05); /* Makes the box bigger when you hover over it */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
