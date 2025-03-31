@@ -203,48 +203,39 @@ body{
 }   
 
 .value h2{
-  margin-left:900px;
+
   color: rgb(0, 84, 162); 
   text-decoration: underline;
-  margin-top: -284px;
+
 }
 
 .value p{
   max-width: 35em;
   text-align: center;
-  margin-top: 10px;
+
   font-weight: bold;
-  margin-left: 680px;
 } 
 
 .Motto h2{
-  margin-left:900px;
   color: rgb(0, 84, 162); 
   text-decoration: underline;
-  margin-top: 133px;
 }
 
 .Motto p{
   max-width: 35em;
   text-align: center;
-  margin-top: 10px;
   font-weight: bold;
-  margin-left: 660px;
 } 
 
 .Treaty h2{
-  margin-left:1525px;
   color: rgb(0, 84, 162); 
   text-decoration: underline;
-  margin-top: -250px;
 }
 
 .Treaty p{
   max-width: 150em;
   text-align: center;
-  margin-top: 10px;
   font-weight: bold;
-  margin-left: 1400px;
 } 
 
 .Character h2{
@@ -274,6 +265,7 @@ body{
   max-width: 450px; 
   display: inline-block; 
   transition: all 0.3s ease-in-out; /* Transition Effect */
+  max-height: 170px;
 }
 
 /* Hover */
@@ -293,8 +285,9 @@ body{
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); /* Shadow */
   max-width: 450px; 
   transition: all 0.3s ease-in-out; /* Transition Effect */
-}
+  max-height: 170px;
 
+}
 /* Hover */
 .vision:hover {  
   background-color: #c7c6c6; 
@@ -303,4 +296,69 @@ body{
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
 }
 
+.value {
+  padding: 40px; 
+  margin: 10px auto; /* Centering the box */
+  border-radius: 25px; /* Rounded Corners */
+  text-align: center; 
+  background-color: #e6e6e6; /* Light background color */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); /* Shadow */
+  max-width: 450px; 
+  transition: all 0.3s ease-in-out; /* Transition Effect */
+  display: block; /* Ensures it behaves as a block-level element */
+  margin-top: -330px;
+  max-height: 170px;
+}
 
+/* Hover */
+.value:hover {  
+  background-color: #c7c6c6; 
+  border-color: #007bff; 
+  transform: scale(1.05); /* Makes the box bigger when you hover over it */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.Motto {
+  padding: 40px; 
+  margin: 10px auto; /* Centering the box */
+  border-radius: 25px; /* Rounded Corners */
+  text-align: center; 
+  background-color: #e6e6e6; /* Light background color */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); /* Shadow */
+  max-width: 450px; 
+  transition: all 0.3s ease-in-out; /* Transition Effect */
+  display: block; /* Ensures it behaves as a block-level element */
+  margin-top: 20px;
+  max-height: 170px;
+}
+
+/* Hover */
+.Motto:hover {  
+  background-color: #c7c6c6; 
+  border-color: #007bff; 
+  transform: scale(1.05); /* Makes the box bigger when you hover over it */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.Treaty {
+  padding: 20px; 
+  margin: 10px auto; /* Centering the box */
+  border-radius: 25px; /* Rounded Corners */
+  text-align: center; 
+  background-color: #e6e6e6; /* Light background color */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); /* Shadow */
+  max-width: 450px; 
+  transition: all 0.3s ease-in-out; /* Transition Effect */
+  display: block; /* Ensures it behaves as a block-level element */
+  max-height: 170px;
+  margin-right: 50px;
+  margin-top: -300px;
+}
+
+/* Hover */
+.Treaty:hover {  
+  background-color: #c7c6c6; 
+  border-color: #007bff; 
+  transform: scale(1.05); /* Makes the box bigger when you hover over it */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+}
