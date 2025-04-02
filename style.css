@@ -179,8 +179,11 @@ img {vertical-align: middle;}
 .mission h2{
 
   margin-top: 20px;
+
+  margin-top: 20px;
   color: rgb(0, 84, 162); 
   text-decoration: underline;
+  text-align: center;
   text-align: center;
 }
 
