@@ -112,7 +112,6 @@ body {
     width: 300px; 
     height: 300px;
     object-fit: cover; 
-    border-radius: 8px;
     display: block;
     transform: scale(1.05);
 }
@@ -131,22 +130,19 @@ body {
 
 /* Hover */
 .image-item {
-  padding: 10px;
-  border-radius: 8px;
+  padding: 0px;
+  border-radius: 3px;
   text-align: center;
-  background-color: #e6e6e6;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   max-width: 450px;
   transition: all 0.3s ease-in-out;
-  flex: 1 1 300px; /* Makes the boxes responsive */
+  flex: 300 1 300px; /* Makes the boxes responsive */
 }
-
+  
 /* Hover Effect */
 .image-item:hover {
-  background-color: #c7c6c6;
   border-color: #007bff;
   transform: scale(1.05);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 5px 10px rgba(0.2, 0.2);
 }
 
 
