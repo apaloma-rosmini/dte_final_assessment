@@ -189,7 +189,10 @@ body {
   height: 150px;
 }
 
-
+  .footer-column p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
 
 .footer-column ul li a {
   text-decoration: none;
