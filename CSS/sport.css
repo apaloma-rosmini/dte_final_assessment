@@ -5,62 +5,59 @@
     box-sizing: border-box;
   }
   
-  /*NAVBAR*/
-  div.navbar{
-    
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 80px;
-      overflow: hidden;
-      background-color: rgb(0, 84, 162);
-      height: 0px;
-      position: top;
-    }
-    
-    li {
-      float: right;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 10px 12px 12px 16px;
-      text-decoration: none;
-    }
-    
-    li a:hover {
-      background-color: #111;
-    }
-    
-    .active {
-      background-color: red;
-    }
-    
-    h1 {
-      color: white;
-      margin-left: 100px;
-      position: absolute;
-      top: 40px;
-      font-size: 50px;
-    }
-    .logo {
-      width:150px;
-      height: auto;
-      margin-left: 800px;
-      position: absolute;
-      top: 20px;
-    }
-  
-    h2{
-      color:white;
-      margin-left: 170px;
-      position: absolute;
-      top: 100px;
-      font-size: 25px;
-    }
-  }
+/*NAVBAR*/
+div.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 80px;
+  overflow: hidden;
+  background-color: rgb(0, 84, 162);
+  height: 0px;
+}
+
+div.navbar li {
+  float: right;
+}
+
+div.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px 12px 16px;
+  text-decoration: none;
+}
+
+div.navbar li a:hover {
+  background-color: #111;
+}
+
+div.navbar .active {
+  background-color: red;
+}
+
+div.navbar h1 {
+  color: white;
+  margin-left: 100px;
+  position: absolute;
+  top: 40px;
+  font-size: 50px;
+}
+
+div.navbar .logo {
+  width: 150px;
+  height: auto;
+  margin-left: 800px;
+  position: absolute;
+  top: 20px;
+}
+
+div.navbar h2 {
+  color: white;
+  margin-left: 170px;
+  position: absolute;
+  top: 100px;
+  font-size: 25px;
+}
   
 /* Layout */
 body {
@@ -155,7 +152,7 @@ body {
 .image-item:hover {
   border-color: #007bff;
   transform: scale(1.05);
-  box-shadow: 10px 5px 10px rgba(0.2, 0.2);
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 
