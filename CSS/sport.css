@@ -151,7 +151,6 @@ body {
 .image-item:hover {
   border-color: #007bff;
   transform: scale(1.05);
-  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 
